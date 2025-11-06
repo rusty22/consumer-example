@@ -26,7 +26,7 @@ describe('Movies Service', () => {
           path: '/movies',
         })
         .willRespondWith({
-          status: 201,
+          status: 200,
           body: eachLike(EXPECTED_BODY),
         });
 
